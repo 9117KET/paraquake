@@ -1,0 +1,21 @@
+site_id,site_name,country,region,latitude,longitude,exposure_type,construction_class,sum_insured_eur,trigger_magnitude,trigger_radius_km,max_payout_eur,currency
+SITE-001,Istanbul Logistics Hub,Turkey,Marmara,41.0082,28.9784,Port & Logistics,B,45000000,4.4,100,12000000,EUR
+SITE-002,Izmir Industrial Park,Turkey,Aegean,38.4237,27.1428,Industrial Facility,B,30000000,4.5,90,8000000,EUR
+SITE-003,Gaziantep Residential Portfolio,Turkey,Southeastern Anatolia,37.0662,37.3833,Residential Portfolio,C,20000000,3.8,80,6000000,EUR
+SITE-004,Tokyo Bay Commercial Tower,Japan,Kanto,35.6762,139.6503,Commercial Property,A,75000000,5.2,100,18000000,EUR
+SITE-005,Sendai Critical Infrastructure Site,Japan,Tohoku,38.2682,140.8694,Critical Infrastructure,A,60000000,5.0,120,20000000,EUR
+SITE-006,Santiago Commercial District,Chile,Santiago Metropolitan,-33.4489,-70.6693,Commercial Property,A,55000000,5.1,100,15000000,EUR
+SITE-007,Valparaiso Port Terminal,Chile,Valparaiso Region,-33.0472,-71.6127,Port & Logistics,B,40000000,4.5,90,11000000,EUR
+SITE-008,Mexico City Residential Portfolio,Mexico,Valley of Mexico,19.4326,-99.1332,Residential Portfolio,C,35000000,3.9,80,9000000,EUR
+SITE-009,Acapulco Coastal Resort Portfolio,Mexico,Guerrero,16.8531,-99.8237,Commercial Property,B,25000000,4.3,90,7000000,EUR
+SITE-010,Manila Industrial Facility,Philippines,National Capital Region,14.5995,120.9842,Industrial Facility,B,32000000,4.2,80,8500000,EUR
+SITE-011,Davao Port & Logistics Terminal,Philippines,Davao Region,7.1907,125.4553,Port & Logistics,B,22000000,4.1,90,6000000,EUR
+SITE-012,Los Angeles Critical Infrastructure Node,United States,Southern California,34.0522,-118.2437,Critical Infrastructure,A,80000000,5.2,100,22000000,EUR
+SITE-013,San Francisco Commercial Tower,United States,Bay Area,37.7749,-122.4194,Commercial Property,A,70000000,5.1,100,19000000,EUR
+SITE-014,Jakarta Residential Portfolio,Indonesia,Java,-6.2088,106.8456,Residential Portfolio,C,28000000,3.9,80,7500000,EUR
+SITE-015,Padang Coastal Industrial Facility,Indonesia,West Sumatra,-0.9471,100.4172,Industrial Facility,C,18000000,3.7,90,5000000,EUR
+SITE-016,Kathmandu Valley Residential Portfolio,Nepal,Bagmati,27.7172,85.3240,Residential Portfolio,C,15000000,3.6,70,5000000,EUR
+SITE-017,L'Aquila Historic District Portfolio,Italy,Abruzzo,42.3498,13.3995,Residential Portfolio,C,12000000,3.5,60,4000000,EUR
+SITE-018,Wellington Commercial Waterfront,New Zealand,Wellington Region,-41.2865,174.7762,Commercial Property,B,38000000,4.4,90,10000000,EUR
+SITE-019,Christchurch Rebuild Zone Portfolio,New Zealand,Canterbury,-43.5321,172.6362,Residential Portfolio,B,26000000,4.2,80,7000000,EUR
+SITE-020,Port-au-Prince Critical Infrastructure,Haiti,Ouest,18.5944,-72.3074,Critical Infrastructure,C,10000000,3.7,100,4000000,EUR
