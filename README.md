@@ -2,7 +2,7 @@
 
 **Real USGS earthquake data, transparent geospatial trigger logic, and an AI-generated underwriting brief — an educational parametric NatCat demo, not an actuarial model.**
 
-[Live demo](#) &nbsp;·&nbsp; Built by [Kinlo Ephriam Tangiri](https://www.kinloephraim.com/)
+[GitHub repo](https://github.com/9117KET/paraquake) &nbsp;·&nbsp; Live demo: *deploy pending, see below* &nbsp;·&nbsp; Built by [Kinlo Ephriam Tangiri](https://www.kinloephraim.com/)
 
 ---
 
@@ -142,6 +142,19 @@ paraquake/
     sample_usgs_response.json    # real, checked-in USGS response fixture
   tests/                         # pytest suite, incl. a mocked-LLM graph smoke test
 ```
+
+## Deploying to Streamlit Community Cloud
+
+1. Go to [share.streamlit.io](https://share.streamlit.io/) and sign in with GitHub (create a free
+   account if you don't have one).
+2. Click **New app**, select the `9117KET/paraquake` repo, branch `main`, and set the main file
+   path to `app/streamlit_app.py`.
+3. Under **Advanced settings → Secrets**, add:
+   ```
+   GROQ_API_KEY = "your_groq_api_key_here"
+   ```
+4. Deploy. Once live, update the "Live demo" link at the top of this README with the assigned
+   `*.streamlit.app` URL.
 
 ## Running locally
 
