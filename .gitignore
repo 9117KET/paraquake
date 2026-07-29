@@ -7,3 +7,6 @@ venv/
 .pytest_cache/
 *.egg-info/
 streamlit_boot.log
+
+# Private working notes -- never published
+private/

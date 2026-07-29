@@ -6,6 +6,7 @@ Run locally with:  streamlit run app/streamlit_app.py
 from __future__ import annotations
 
 import datetime
+import os
 import sys
 from pathlib import Path
 
@@ -18,7 +19,16 @@ from components.map_view import build_deck
 from components.metrics import render_summary_metrics
 from components.tables import portfolio_dataframe, trigger_results_dataframe
 
+# Locally the API key comes from .env; on Streamlit Community Cloud there is no
+# .env, only st.secrets. ChatGroq reads GROQ_API_KEY from the environment, so
+# mirror any secrets across explicitly rather than relying on the host to do it.
 load_dotenv()
+try:
+    for _key, _value in st.secrets.items():
+        if isinstance(_value, str):
+            os.environ.setdefault(_key, _value)
+except Exception:  # noqa: BLE001 -- no secrets.toml locally is the normal case
+    pass
 
 from paraquake.agents.graph import run_pipeline  # noqa: E402  (after sys.path insert)
 
